@@ -34,7 +34,7 @@
     "scriptResources": {
       "teams-chat-export-wp-web-part": {
         "type": "path",
-        "path": "teams-chat-export-wp-web-part_f3c878799d33d8f87de9.js"
+        "path": "teams-chat-export-wp-web-part.js"
       },
       "@microsoft/sp-property-pane": {
         "type": "component",
@@ -63,7 +63,7 @@
       },
       "TeamsChatExportWpWebPartStrings": {
         "type": "path",
-        "path": "TeamsChatExportWpWebPartStrings_en-us_536e65149b0acf4d52c0043073b9fc59.js"
+        "path": "TeamsChatExportWpWebPartStrings_en-us.js"
       }
     }
   }
