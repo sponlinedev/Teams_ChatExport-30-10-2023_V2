@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "teams-chat-export-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/teamsChatExportWp/TeamsChatExportWpWebPart.js",
+          "manifest": "./src/webparts/teamsChatExportWp/TeamsChatExportWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TeamsChatExportWpWebPartStrings": "lib/webparts/teamsChatExportWp/loc/{locale}.js"
+  }
+}
