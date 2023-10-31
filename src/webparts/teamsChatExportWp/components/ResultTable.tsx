@@ -52,18 +52,6 @@ const controlStyles = {
   },
 };
 
-const ipAddressesData = [
-  {
-    id: "1",
-    name: "Sarajane Wheatman",
-    ip: "40.98.252.240"
-  },
-  {
-    id: "2",
-    name: "Linell Humpherston",
-    ip: "82.225.151.150"
-  }
-]
 
 export interface IDetailsListDocumentsExampleState {
   columns: IColumn[];
