@@ -261,14 +261,14 @@ private async exportMessage()
   console.log("Final Result...");
   console.log(_finalResult);
 
-  this.setState({
+  this.setState((prevState) => ({
     isChatClicked: "block",
-    _allItems: _finalResult.slice(0, this.state._topLoadSelect),
-    teamExportPackage:  _finalResult.slice(0, this.state._topLoadSelect),
+    _allItems: _finalResult.slice(0, prevState._topLoadSelect),
+    teamExportPackage: _finalResult.slice(0, prevState._topLoadSelect),
     fromDate: null,
     toDate: null,
-    defaultSelectedKey:0
-  });  
+    defaultSelectedKey: 0
+  }));  
 }
 
 private async getTeamsDetail()
